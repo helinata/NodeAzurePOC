@@ -1,0 +1,5 @@
+﻿<div ng-controller="loginCtrl">
+    <button class="btn btn-primary btn-block" ng-click="login()">Sign-in with Office 365</button>
+   <a class="btn btn-link" ng-show="userInfo.isAuthenticated" ng-click="logout()">Logout</a>
+  <a class="btn btn-link" ng-hide=" userInfo.isAuthenticated" ng-click="login()">Login</a>
+</div>
